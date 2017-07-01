@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Wed, 14 Dec 2016 21:08:00 +0000
+Source: libqtshadowsocks
+Binary: libqtshadowsocks libqtshadowsocks-dev shadowsocks-libqtshadowsocks
+Architecture: amd64
+Version: 1.10.0-1
+Distribution: stable
+Urgency: medium
+Maintainer: Symeon Huang <hzwhuang@gmail.com>
+Changed-By: Symeon Huang <hzwhuang@gmail.com>
+Description:
+ libqtshadowsocks - A lightweight and ultra-fast shadowsocks library written in C++/Q
+ libqtshadowsocks-dev - Development files of libQtShadowsocks
+ shadowsocks-libqtshadowsocks - A CLI shadowsocks client using libQtShadowsocks
+Changes:
+ libqtshadowsocks (1.10.0-1) stable; urgency=medium
+ .
+   * supports tag/remark in ss uri
+   * avoid crashes in Encryptor when input is bad
+   * fix a bug causing upload issues when OTA is enabled
+   * add support for aes in ctr mode
+Checksums-Sha1:
+ 1fcda410c158d94a4109f61aa06262b7bb5d7773 10702 libqtshadowsocks-dev_1.10.0-1_amd64.deb
+ bffa6c712c5859893370df0e99db3a97a3260e0b 9375 libqtshadowsocks_1.10.0-1_amd64.buildinfo
+ 155e6691ce144ef1c322a3f9fc40d59360c56c42 74870 libqtshadowsocks_1.10.0-1_amd64.deb
+ 3a32fcaff233e7481dd89ee4cf7893b7efc10eff 16610 shadowsocks-libqtshadowsocks_1.10.0-1_amd64.deb
+Checksums-Sha256:
+ f7b74c6e69801a098302fc183b69f9da14bee70885c12f3bfb2c23389412edc1 10702 libqtshadowsocks-dev_1.10.0-1_amd64.deb
+ 1378f72cd639d2842f1a7c45cacbcbdfa8a25ce867a6907221b31b7b9a9eea03 9375 libqtshadowsocks_1.10.0-1_amd64.buildinfo
+ 116487636b3e5f904d220350c94afce8b15d08d0ebc24ab32290d7b9e37d9ae9 74870 libqtshadowsocks_1.10.0-1_amd64.deb
+ 76715d54cf026cdfa9de94904f219a1240c5a0d64809a7fb3b672b8b091ab09f 16610 shadowsocks-libqtshadowsocks_1.10.0-1_amd64.deb
+Files:
+ a58527338a834810829b7ad075378b62 10702 libdevel extra libqtshadowsocks-dev_1.10.0-1_amd64.deb
+ 1bb47a5d49e1816ac595faccc445988a 9375 libs extra libqtshadowsocks_1.10.0-1_amd64.buildinfo
+ 1aae49c20c557e7e01227e801d23d232 74870 libs extra libqtshadowsocks_1.10.0-1_amd64.deb
+ ef47a275e4c7a25d63181a895d0cc2b8 16610 net extra shadowsocks-libqtshadowsocks_1.10.0-1_amd64.deb

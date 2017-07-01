@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Wed, 14 Dec 2016 21:55:00 +0000
+Source: shadowsocks-qt5
+Binary: shadowsocks-qt5
+Architecture: amd64
+Version: 2.8.0-1
+Distribution: stable
+Urgency: medium
+Maintainer: Symeon Huang <hzwhuang@gmail.com>
+Changed-By: Symeon Huang <hzwhuang@gmail>
+Description:
+ shadowsocks-qt5 - A cross-platform shadowsocks GUI client
+Changes:
+ shadowsocks-qt5 (2.8.0-1) stable; urgency=medium
+ .
+   * remember table's geometry and state
+   * precise data usage
+   * support tag/name in ss:// uri
+   * bump requirement for libQtShadowsocks
+   * fix a typo
+Checksums-Sha1:
+ 8c7f0e242c8229439452793a34d8f58c4b690831 13878 shadowsocks-qt5_2.8.0-1_amd64.buildinfo
+ f24e988a7f00fd886a0e716b07ec2e2509f0a373 282460 shadowsocks-qt5_2.8.0-1_amd64.deb
+Checksums-Sha256:
+ 449035539d8a0ff17a921e221b5d5778989a56fd8e688d123ce208926db6251d 13878 shadowsocks-qt5_2.8.0-1_amd64.buildinfo
+ acf1923e93aa6925c76d28251d8963f925260e0e994a535534d0f340ccafd00e 282460 shadowsocks-qt5_2.8.0-1_amd64.deb
+Files:
+ 76ccb86eefc687e79f78c16dd3910df5 13878 net extra shadowsocks-qt5_2.8.0-1_amd64.buildinfo
+ a879e59491cd773cece969ba749e9905 282460 net extra shadowsocks-qt5_2.8.0-1_amd64.deb
