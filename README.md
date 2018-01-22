@@ -3,7 +3,7 @@
 在 https://github.com/shadowsocks/shadowsocks-qt5/wiki 中没有debian的安装方法，所以Google了一下，
 先安装依赖包
 
-> apt-get -y install qt5-qmake qtbase5-dev libbotan1.10-dev pkg-config debhelper libqrencode-dev libzbar-dev libappindicator-dev
+> apt -y install qt5-qmake qtbase5-dev libbotan1.10-dev pkg-config debhelper libqrencode-dev libzbar-dev libappindicator-dev
 
 
 git clone shadowsocks依赖
