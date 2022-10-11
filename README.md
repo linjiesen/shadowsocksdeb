@@ -25,3 +25,7 @@ git clone shadowsocks-qt5项目
 ```
 
 > sudo dpkg -i shadowsocks-qt5_2.8.0-1_amd64.deb
+
+
+
+更新于2022年，我已经不再使用debian了，我想现在v2ray的使用应该更加广泛吧，这个项目也没有存在的必要了，留个纪念吧！
